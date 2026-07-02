@@ -1,0 +1,40 @@
+﻿body {
+    background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+}
+h1, h2, h3, h4, h5, label, p {
+    color: white;
+}
+input {
+    background: linear-gradient(90deg,#222120,#312e26,#45423a);
+}
+.form-control::-webkit-input-placeholder {
+    color: gray;
+}
+button {
+    background: linear-gradient(90deg,#4159d6,#585dd9,#6b62dc); 
+}
+header {
+    background: linear-gradient(90deg,#000000,#030032); 
+}
+.logo {
+    margin-right: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.window {
+    background: rgba(26, 26, 26, 0.95);
+    border: 1px solid #2d2d2d;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    max-width: 450px;
+    width: 100%;
+    padding: 40px;
+    justify-self: center;
+    margin-top: 150px;
+    top: 40%;
+}
+.slider-icon {
+    background-color: black;
+    background-size: 20px;
+}
